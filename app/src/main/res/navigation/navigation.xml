@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/promoFragment">
+
+    <fragment
+        android:id="@+id/promoFragment"
+        android:name="com.example.ups2023level1.PromoFragment"
+        android:label="fragment_promo"
+        tools:layout="@layout/fragment_promo" >
+        <action
+            android:id="@+id/action_promoFragment_to_referralFragment"
+            app:destination="@id/referralFragment" />
+        <action
+            android:id="@+id/action_promoFragment_to_tariffFragment"
+            app:destination="@id/tariffFragment" />
+        <action
+            android:id="@+id/action_promoFragment_to_playstationFragment"
+            app:destination="@id/playstationFragment" />
+        <action
+            android:id="@+id/action_promoFragment_to_bookingFragment"
+            app:destination="@id/bookingFragment" />
+        <action
+            android:id="@+id/action_promoFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_promoFragment_to_newsFragment2"
+            app:destination="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.ups2023level1.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_newsFragment_to_referralFragment"
+            app:destination="@id/referralFragment" />
+        <action
+            android:id="@+id/action_newsFragment_to_promoFragment"
+            app:destination="@id/promoFragment" />
+        <action
+            android:id="@+id/action_newsFragment_to_tariffFragment"
+            app:destination="@id/tariffFragment" />
+        <action
+            android:id="@+id/action_newsFragment_to_playstationFragment"
+            app:destination="@id/playstationFragment" />
+        <action
+            android:id="@+id/action_newsFragment_to_bookingFragment"
+            app:destination="@id/bookingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/referralFragment"
+        android:name="com.example.ups2023level1.ReferralFragment"
+        android:label="fragment_referral"
+        tools:layout="@layout/fragment_referral" >
+        <action
+            android:id="@+id/action_referralFragment_to_tariffFragment"
+            app:destination="@id/tariffFragment" />
+        <action
+            android:id="@+id/action_referralFragment_to_playstationFragment"
+            app:destination="@id/playstationFragment" />
+        <action
+            android:id="@+id/action_referralFragment_to_promoFragment"
+            app:destination="@id/promoFragment" />
+        <action
+            android:id="@+id/action_referralFragment_to_bookingFragment"
+            app:destination="@id/bookingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tariffFragment"
+        android:name="com.example.ups2023level1.TariffFragment"
+        android:label="fragment_tariff"
+        tools:layout="@layout/fragment_tariff" >
+        <action
+            android:id="@+id/action_tariffFragment_to_referralFragment"
+            app:destination="@id/referralFragment" />
+        <action
+            android:id="@+id/action_tariffFragment_to_promoFragment"
+            app:destination="@id/promoFragment" />
+        <action
+            android:id="@+id/action_tariffFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_tariffFragment_to_playstationFragment"
+            app:destination="@id/playstationFragment" />
+        <action
+            android:id="@+id/action_tariffFragment_to_bookingFragment"
+            app:destination="@id/bookingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playstationFragment"
+        android:name="com.example.ups2023level1.PlaystationFragment"
+        android:label="fragment_playstation"
+        tools:layout="@layout/fragment_playstation" >
+        <action
+            android:id="@+id/action_playstationFragment_to_tariffFragment"
+            app:destination="@id/tariffFragment" />
+        <action
+            android:id="@+id/action_playstationFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_playstationFragment_to_referralFragment"
+            app:destination="@id/referralFragment" />
+        <action
+            android:id="@+id/action_playstationFragment_to_promoFragment"
+            app:destination="@id/promoFragment" />
+        <action
+            android:id="@+id/action_playstationFragment_to_bookingFragment"
+            app:destination="@id/bookingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="com.example.ups2023level1.BookingFragment"
+        android:label="fragment_booking"
+        tools:layout="@layout/fragment_booking" >
+        <action
+            android:id="@+id/action_bookingFragment_to_playstationFragment"
+            app:destination="@id/playstationFragment" />
+        <action
+            android:id="@+id/action_bookingFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_bookingFragment_to_tariffFragment"
+            app:destination="@id/tariffFragment" />
+        <action
+            android:id="@+id/action_bookingFragment_to_referralFragment"
+            app:destination="@id/referralFragment" />
+        <action
+            android:id="@+id/action_bookingFragment_to_promoFragment"
+            app:destination="@id/promoFragment" />
+    </fragment>
+</navigation>

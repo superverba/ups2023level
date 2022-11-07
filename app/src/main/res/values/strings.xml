@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Уровень 1</string>
+    <string name="news_fragment_label">Новости</string>
+    <string name="promo_fragment_label">Промокод</string>
+    <string name="referral_fragment_label">Реферал</string>
+    <string name="tariff_fragment_label">Тарифы</string>
+    <string name="playstation_fragment_label">Playstation</string>
+    <string name="booking_fragment_label">Бронирование</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inputpromo">Введите промокод</string>
+
+</resources>

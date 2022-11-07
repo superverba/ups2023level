@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    #Google говорит что 6 эллементов плохо, кроме того выглядит от 4 страшно, -->
+<!--    поэтому отказываемся от стандартного Bottom-->
+
+    <item
+        android:id="@+id/newsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_news"
+        android:title="@string/news_fragment_label"/>
+    <item
+        android:id="@+id/promoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_promo"
+        android:title="@string/promo_fragment_label"/>
+    <item
+        android:id="@+id/referralFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_referral"
+        android:title="@string/referral_fragment_label"/>
+
+
+</menu>

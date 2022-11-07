@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimaryVariant"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="7dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/button"
+            android:layout_width="27dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/ic_news"
+            app:tint="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/news_fragment_label"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="7dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="43dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/ic_promo"
+            app:tint="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/promo_fragment_label"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/linear3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="7dp">
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="20dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/ic_referral"
+            app:tint="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/referral_fragment_label"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="7dp">
+
+        <ImageView
+            android:id="@+id/button4"
+            android:layout_width="24dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/ic_tariff"
+            app:tint="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tariff_fragment_label"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/ic_playstation"
+            app:tint="@color/gray"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playstation_fragment_label"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/button6"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cyber_red"
+            app:tint="@color/gray" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/booking_fragment_label"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+    </LinearLayout>
+</LinearLayout>
